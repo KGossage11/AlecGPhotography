@@ -1,4 +1,4 @@
-import wildlifeImage from '@/assets/photos/wildlife/Website-11.jpg';
+import wildlifeImage from '@/assets/photos/wildlife/Website-11-BvZdZ0q6.jpg';
 
 export function Hero() {
   return (
