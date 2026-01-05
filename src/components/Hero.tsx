@@ -1,10 +1,12 @@
+import wildlifeImage from '@/assets/photos/wildlife/Website-11.jpg';
+
 export function Hero() {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/photos/wildlife/Website-11.jpg"
+          src={wildlifeImage}
           alt="Wildlife bird photography"
           className="w-full h-full object-cover"
         />
