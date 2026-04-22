@@ -1,4 +1,4 @@
-import wildlifeImage from '@/assets/photos/wildlife/Website-11.jpg'
+import wildlifeImage from '@/assets/photos/wildlife/src/assets/photos/wildlife/RWBlackbirdYosemite2.jpg'
 
 export function Hero() {
   return (
@@ -15,10 +15,10 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4">
-        <h1 className="text-5xl md:text-7xl mb-6">Capturing Life's Moments</h1>
+        {/* <h1 className="text-5xl md:text-7xl mb-6">Capturing Life's Moments</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           Professional photography for wildlife, portraits, and more
-        </p>
+        </p> */}
         <button 
           onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
           className="bg-white text-black px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"

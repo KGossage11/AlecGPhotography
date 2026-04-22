@@ -57,7 +57,7 @@ const films: Film[] = [
 const categories = [
   { id: "all" as Category, label: "All" },
   { id: "wildlife" as Category, label: "Wildlife" },
-  { id: "graduations" as Category, label: "Graduations" },
+  { id: "graduations" as Category, label: "Portraits" },
   // { id: "portraits" as Category, label: "Portraits" },
   // { id: "events" as Category, label: "Events" },
   { id: "film" as Category, label: "Film" },
